@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SoluClima, votre expert en climatisation et chauffage.">
+    <title>SoluClima - Climatisation et Chauffage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- En-tête -->
+    <header>
+        <div class="container">
+            <h1>SoluClima</h1>
+            <p>Experts en climatisation et solutions de chauffage</p>
+            <nav>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#services">Nos Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">À Propos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Section Accueil -->
+    <section id="accueil">
+        <div class="container">
+            <h2>Bienvenue chez SoluClima</h2>
+            <p>Nous fournissons des solutions de climatisation et de chauffage sur mesure pour votre confort et votre bien-être.</p>
+            <img src="climatisation.jpg" alt="Climatisation" />
+        </div>
+    </section>
+
+    <!-- Section Services -->
+    <section id="services">
+        <div class="container">
+            <h2>Nos Services</h2>
+            <div class="service">
+                <h3>Installation de Climatisation</h3>
+                <p>Nous installons des systèmes de climatisation adaptés à vos besoins et à votre espace.</p>
+            </div>
+            <div class="service">
+                <h3>Entretien & Réparation</h3>
+                <p>Nos techniciens assurent l'entretien et la réparation de vos équipements de climatisation.</p>
+            </div>
+            <div class="service">
+                <h3>Solutions de Chauffage</h3>
+                <p>Nous vous proposons des solutions de chauffage écologiques et économiques.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="about">
+        <div class="container">
+            <h2>À Propos de SoluClima</h2>
+            <p>SoluClima est une entreprise spécialisée  l'installation et la maintenance de systèmes de climatisation et de chauffage. Avec plusieurs années d'expérience, nous mettons un point d'honneur à offrir un service de qualité et à répondre à vos besoins de manière efficace.</p>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contactez-nous</h2>
+            <form action="/envoyer-message" method="POST">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 SoluClima - Tous droits réservés.</p>
+           
+            <p>Email : habibarfaoui2019@gmail.com
+        </div>
+    </footer>
+
+</body>
+
+</html>
